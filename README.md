@@ -353,6 +353,62 @@ alert-success
 alert-error
 ```
 ---
+🛠️ Instalação
+
+Clonar o projeto:
+
+git clone URL_DO_REPOSITORIO
+
+Entrar na pasta:
+
+cd passaporte.io
+
+Instalar dependências:
+
+composer install
+
+Instalar dependências front-end:
+
+npm install
+
+Criar arquivo de ambiente:
+
+cp .env.example .env
+
+Gerar chave da aplicação:
+
+php artisan key:generate
+
+Executar migrations e seeders:
+
+php artisan migrate:fresh --seed
+
+Criar link simbólico para uploads:
+
+php artisan storage:link
+
+Iniciar servidor:
+
+php artisan serve
+👤 Contas de Teste
+Organizador
+
+Email:
+
+organizador@passaporte.io
+
+Senha:
+
+12345678
+Participante
+
+Email:
+
+participante@passaporte.io
+
+Senha:
+
+12345678
 
 ## 📚 Aprendizados
 
